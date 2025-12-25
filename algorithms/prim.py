@@ -1,4 +1,4 @@
-import heapq
+import heapq # fila de prioridade
 
 def prim(graph, start):
 
@@ -6,11 +6,13 @@ def prim(graph, start):
     mst = []
     total_cost = 0
 
-    pq = [(0, start, None)]
+    pq = [(0, start, None)] #configurando ponto de partida
 
     while pq:
-        cost, u, parent = heapq.heappop(pq)
 
+        cost, u, parent = heapq.heappop(pq) #elimina aresta de menor peso
+
+        # evitando ciclos
         if u in visited:
             continue
 

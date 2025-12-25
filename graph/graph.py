@@ -1,9 +1,12 @@
 class Graph:
     def __init__(self):
-        self.adj = {}
-        self.edges = []
+        
+        self.adj = {} # lista de adjascencias
+        self.edges = [] 
     
+    # Registra as conexoes e atualiza as estruturas de dados
     def add_edge(self, u, v, weight):
+
         self.edges.append((u,v,weight))
 
         if u not in self.adj:
