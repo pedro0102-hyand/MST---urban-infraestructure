@@ -1,0 +1,12 @@
+
+
+[
+    ["Centro", "Bairro A", 4],
+    ["Centro", "Bairro B", 3],
+    ["Bairro A", "Bairro B", 2],
+    ["Bairro A", "Bairro C", 7],
+    ["Bairro B", "Bairro C", 6],
+    ["Bairro B", "Bairro D", 5],
+    ["Bairro C", "Bairro D", 4]
+  ]
+  
