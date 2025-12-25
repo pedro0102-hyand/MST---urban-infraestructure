@@ -1,0 +1,9 @@
+[
+    ["Centro", "Bairro A", 4], ["Centro", "Bairro B", 3], ["Centro", "Bairro E", 8],
+    ["Bairro A", "Bairro B", 2], ["Bairro A", "Bairro C", 7], ["Bairro A", "Bairro F", 5],
+    ["Bairro B", "Bairro C", 6], ["Bairro B", "Bairro D", 5], ["Bairro B", "Bairro G", 9],
+    ["Bairro C", "Bairro D", 4], ["Bairro C", "Bairro H", 3],
+    ["Bairro D", "Bairro I", 6], ["Bairro E", "Bairro F", 2], ["Bairro F", "Bairro G", 4],
+    ["Bairro G", "Bairro H", 5], ["Bairro H", "Bairro I", 2], ["Bairro E", "Bairro J", 7],
+    ["Bairro J", "Bairro I", 4], ["Bairro F", "Bairro J", 6]
+  ]
